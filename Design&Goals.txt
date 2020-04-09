@@ -1,0 +1,58 @@
+Goals:
+
+Have three maybe four main sections containing the following:
+
+-Eating
+	-calandar type set up where you can view a month/week/day. 
+	-default view will show current day and have either 30 minute slots to fill in what food was eaten when
+	and details about the food eaten.
+	-track how long its been since last mean to possibly help keep track of fasting hours
+	-function to add up calories/carbs/fats/sugars for a day, maybe a week calculation too
+
+Gym Workouts
+	-A few catagories like Back day/Leg day/Bicep shoulder/Chest and tri. possibly make them all seperate muscle groups like just chest and have triceps be seperate
+	-for each catagory code in preset workouts/ with variation or details about form/goal of certain lift/weight and reps depending on goals/current strength
+	-ability to track work outs for each day ie display which lifts were preformed, how many reps, how long, time between
+	-timer/stopwatch function to track time between sets
+	-ability for user to add their own new workout/lifts
+
+Climbing tracker
+	-track routes climb/ climbing exercies ie how long you did hangboard, what grips were you using, level of difficulty of route climbed, time 
+	to complete route, number of takes/rests, upload image or video of route?
+	- preset climbing workouts
+	- ability to add new climbing workouts
+
+Possible about page? probably not needed
+
+Design:
+
+-front end or fullstack next.js/react
+-use some sort of localdb for users to store their data from app
+-left side tabular design similar to ionics tabulated auto generated page ie tabs and selections on left content on the right
+-...
+
+index.js 
+	-Gym Workouts	weight icon
+		chest & triceps day
+			various default workouts
+			create new workout
+
+		back day
+			various default workouts
+			create new workout
+
+		leg day
+			various default workouts
+			create new workout
+
+		biceps and shoulders
+			various default workouts
+			create new workout
+
+
+	-Food Consumption	food icon
+		
+
+	-Climbing	person climbing/rockwall icon
+
+
