@@ -22,11 +22,14 @@ const Layout = ({ children }) => {
         <Link href="/">
           <a>Home</a>
         </Link>
-        <Link href="/workouts">
+        <Link href="/workoutTracker">
           <a>Workouts</a>
         </Link>
         <Link href="/foodTracker">
-          <a>Food Tracker</a>
+          <a>Food</a>
+        </Link>
+        <Link href="/climbingTracker">
+          <a>Climbing</a>
         </Link>
       </Nav>
       <PageBody>{children}</PageBody>

@@ -5,7 +5,7 @@ const Home = (props) => {
 
     return(
         <Layout>
-            <h1>HHHOOMMMEEEE Test commit</h1>
+            <h1>HHHOOMMMEEEE</h1>
         </Layout>
     )
 }

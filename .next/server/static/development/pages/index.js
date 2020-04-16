@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -170,7 +170,7 @@ const Layout = ({
       columnNumber: 11
     }
   }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/workouts",
+    href: "/workoutTracker",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -199,11 +199,26 @@ const Layout = ({
       lineNumber: 29,
       columnNumber: 11
     }
-  }, "Food Tracker"))), __jsx(_styles__WEBPACK_IMPORTED_MODULE_2__["PageBody"], {
+  }, "Food")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/climbingTracker",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32,
+      columnNumber: 11
+    }
+  }, "Climbing"))), __jsx(_styles__WEBPACK_IMPORTED_MODULE_2__["PageBody"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
       columnNumber: 7
     }
   }, children));
@@ -1920,7 +1935,7 @@ const Home = props => {
       lineNumber: 8,
       columnNumber: 13
     }
-  }, "HHHOOMMMEEE Test commit"));
+  }, "HHHOOMMMEEEE"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -1990,7 +2005,7 @@ const Tab = _emotion_styled__WEBPACK_IMPORTED_MODULE_0___default()("div")`
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

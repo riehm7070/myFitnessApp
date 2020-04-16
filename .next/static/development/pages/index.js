@@ -71,7 +71,7 @@ var Layout = function Layout(_ref) {
       columnNumber: 11
     }
   }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/workouts",
+    href: "/workoutTracker",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -100,11 +100,26 @@ var Layout = function Layout(_ref) {
       lineNumber: 29,
       columnNumber: 11
     }
-  }, "Food Tracker"))), __jsx(_styles__WEBPACK_IMPORTED_MODULE_2__["PageBody"], {
+  }, "Food")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/climbingTracker",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32,
+      columnNumber: 11
+    }
+  }, "Climbing"))), __jsx(_styles__WEBPACK_IMPORTED_MODULE_2__["PageBody"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
       columnNumber: 7
     }
   }, children));
@@ -7210,7 +7225,7 @@ var Home = function Home(props) {
       lineNumber: 8,
       columnNumber: 13
     }
-  }, "HHHOOMMMEEE Test commit"));
+  }, "HHHOOMMMEEEE"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -7309,7 +7324,7 @@ var Tab = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_1__["default"])("div")
 
 /***/ }),
 
-/***/ 1:
+/***/ 5:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Criehm%5CDesktop%5CschoolStuff%5CWeb3%5CmyFitnessApp%5Cpages%5Cindex.js ***!
   \******************************************************************************************************************************************************/
@@ -7332,5 +7347,5 @@ module.exports = dll_c0e8feeed3e16fa0fa8d;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

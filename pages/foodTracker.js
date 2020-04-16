@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from "../layouts"
-import FoodTrackerTabs from "../components/FoodTrackerTabs"
+import FoodTrackerTabs from "../components/foodTrackerTabs"
 
 
 const FoodTracker = (props) => {

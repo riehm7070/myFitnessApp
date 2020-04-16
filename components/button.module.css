@@ -1,0 +1,11 @@
+.addImage {
+    height: 37px;
+    width: 37px;
+}
+.addButton{
+    border:none;
+}
+.submitButton{
+    background-color: black;
+    color:white;
+}
