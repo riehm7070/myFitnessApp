@@ -6,6 +6,7 @@ const ThisWeeksFoodTable = (props) => {
     return(
 <table className={styles.tg}>
   <tr>
+    <td className={styles.tg0lax}>Date</td>
     <th className={styles.tg0pky}>Name</th>
     <th className={styles.tg0lax}>Time</th>
     <th className={styles.tg0lax}>Calories</th>
@@ -14,6 +15,7 @@ const ThisWeeksFoodTable = (props) => {
     <th className={styles.tg0lax}>Protein</th>
   </tr>
   <tr>
+    <td className={styles.tg0lax}>4/16/2020</td>
     <td className={styles.tg0lax}>Apple</td>
     <td className={styles.tg0lax}>12:15pm</td>
     <td className={styles.tg0lax}>95</td>

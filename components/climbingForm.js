@@ -8,9 +8,9 @@ const ClimbingForm = (props) => {
                 <Button></Button>
                 <form>
                     <ul>
-                        <li><label>Rating<input type="text"></input></label></li>
+                        <li><label>Route Rating<input type="text"></input></label></li>
                         <li><label>Location<input type="text"></input></label></li>
-                        <li><label>Takes<input type="text"></input></label></li>
+                        <li><label># of Takes<input type="text"></input></label></li>
                         <li><label>Notes<input type="text"></input></label></li>
                     </ul>
                     <SubmitClimbButton></SubmitClimbButton>

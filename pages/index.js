@@ -1,11 +1,12 @@
 import React from 'react';
 import Layout from "../layouts";
+import HomeTab from "../components/homeTab"
 
 const Home = (props) => {
 
     return(
         <Layout>
-            <h1>HHHOOMMMEEEE</h1>
+            <HomeTab></HomeTab>
         </Layout>
     )
 }

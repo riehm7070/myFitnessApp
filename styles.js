@@ -9,8 +9,12 @@ export const Nav = styled("div")`
   padding: 1em;
   height: 2em;
   display: flex;
+  width:100%;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  min-width:700px;
 `
 export const PageBody = styled("div")`
   width: 100%;
@@ -24,7 +28,7 @@ export const TabHead = styled("div")`
   background: black;
 `
 export const TabContainer = styled("div")`
-  width: 30em;
+  width: 35em;
   height: 30em;
   margin: 0 auto;
   webkit-box-shadow: -1px 0px 5px 0px rgba(184, 184, 184, 1);
