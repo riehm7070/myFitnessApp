@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import Link from "next/link"
 import { withRouter } from "next/router"
 import { TabHead, TabContainer, TabBody, Tab } from "../styles"
@@ -10,6 +10,8 @@ const FoodTrackerTabs = ({ router }) => {
   const {
     query: { tab }
   } = router
+
+  const [newFlag, setNewFlag] = useState(false);
 
   const isTabOne = tab === "1" || tab == null
   const isTabTwo = tab === "2"
@@ -48,8 +50,8 @@ const FoodTrackerTabs = ({ router }) => {
       <TabBody>
         {isTabOne && <React.Fragment>
           <div>
-            <Button></Button>
-            <form>
+          <Button newFlag={newFlag} setNewFlag={setNewFlag}></Button>
+            {newFlag && <form>
                   <ul>
                       <li><label>Food Name<input type="text"></input></label></li>
                       <li><label>Time<input type="text"></input></label></li>
@@ -59,7 +61,7 @@ const FoodTrackerTabs = ({ router }) => {
                       <li><label>Protein<input type="text"></input></label></li>
                   </ul>
                   <SubmitFoodButton></SubmitFoodButton>
-              </form>
+              </form>}
             </div>
           </React.Fragment>}
         {isTabTwo && <React.Fragment>

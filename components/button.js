@@ -1,8 +1,9 @@
 import styles from './Button.module.css'
+import React, {useState} from 'react'
 
-export default function Button() {
+export default function Button({setNewFlag, newFlag}) {
   return (
-    <button
+    <button onClick={() => setNewFlag(!newFlag)}
       type="button"
       // Note how the "error" class is accessed as a property on the imported
       // `styles` object.

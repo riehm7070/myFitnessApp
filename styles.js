@@ -20,12 +20,15 @@ export const PageBody = styled("div")`
   width: 100%;
   height: 100%;
   padding: 2em;
+  
 `
 
 export const TabHead = styled("div")`
   border-bottom: 1px solid black;
   display: flex;
   background: black;
+  position: sticky;
+  top: 0;
 `
 export const TabContainer = styled("div")`
   width: 35em;
@@ -34,9 +37,14 @@ export const TabContainer = styled("div")`
   webkit-box-shadow: -1px 0px 5px 0px rgba(184, 184, 184, 1);
   -moz-box-shadow: -1px 0px 5px 0px rgba(184, 184, 184, 1);
   box-shadow: -1px 0px 5px 0px rgba(184, 184, 184, 1);
+  overflow: scroll;
+  ::-webkit-scrollbar{
+    display:none;
+  }
 `
 export const TabBody = styled(PageBody)`
   height: 100%;
+  
 `
 export const Tab = styled("div")`
   padding: 1em;

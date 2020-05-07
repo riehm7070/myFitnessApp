@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import Link from "next/link"
 import { withRouter } from "next/router"
 import { TabHead, TabContainer, TabBody, Tab } from "../styles"
@@ -10,6 +10,8 @@ const ClimbingTrackerTabs = ({ router }) => {
   const {
     query: { tab }
   } = router
+
+  const [newFlag, setNewFlag] = useState(false);
 
   const isTabOne = tab === "1" || tab == null
   const isTabTwo = tab === "2"
@@ -57,8 +59,8 @@ const ClimbingTrackerTabs = ({ router }) => {
 
         {isTabFour && <React.Fragment>
             <div>
-                <Button></Button>
-                <form>
+            <Button newFlag={newFlag} setNewFlag={setNewFlag}></Button>
+            {newFlag && <form>
                     <ul>
                         <li><label>Routine Name<input id="test" type="text"></input></label></li>
                         <li><label>Time<input type="text"></input></label></li>
@@ -66,7 +68,7 @@ const ClimbingTrackerTabs = ({ router }) => {
                         <li><label>Notes<input type="text"></input></label></li>
                     </ul>
                     <SubmitClimbButton></SubmitClimbButton>
-                </form>
+                </form>}
             </div>
             </React.Fragment>}
       </TabBody>

@@ -1,8 +1,11 @@
 import React from 'react';
 import Layout from "../layouts";
 import HomeTab from "../components/homeTab"
+import {loadDB} from '../lib/db.js'
+import { loadGetInitialProps } from 'next/dist/next-server/lib/utils';
+import 'isomorphic-fetch'
 
-const Home = (props) => {
+const Index = (props) => {
 
     return(
         <Layout>
@@ -11,4 +14,4 @@ const Home = (props) => {
     )
 }
 
-export default Home;
+export default Index;
